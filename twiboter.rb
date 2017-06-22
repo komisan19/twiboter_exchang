@@ -36,7 +36,7 @@ when "ユーロ"
   bid = doc.xpath("//*[@id='EURJPY_detail_bid']").text
   ask = doc.xpath("//*[@id='EURJPY_detail_ask']").text
   puts "売値:#{bid} 買値#{ask}"
-when "オーストラリアドル"
+when "ポンド"
   bid = doc.xpath("//*[@id='GBPJPY_detail_bid']").text
   ask = doc.xpath("//*[@id='GBPJPY_detail_ask']").text
   puts "売値:#{bid} 買値#{ask}"
