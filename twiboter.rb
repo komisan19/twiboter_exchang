@@ -1,14 +1,16 @@
-require "twitter"
+# require "twitter"
 require "nokogiri"
 require "open-uri"
 
 # twitter API
+=begin
 client = Twitter::REST::Client.new do |config|
   config.consumer_key = 'Your API'
   config.consumer_secret = 'Your API'
   config.access_token = 'Your API'
   config.access_token_secret = 'Your API'
 end
+=end
 
 
 puts "為替チェッカー"
@@ -42,5 +44,7 @@ else
   puts "現在登録されてません。"
 end
 
+=begin
 clinet.text("今の株価")
 client.update("売値:#{bid} 買値:#{ask}")
+=end
