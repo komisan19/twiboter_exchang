@@ -22,7 +22,7 @@ if name == "ドル"
   url = 'https://info.finance.yahoo.co.jp/fx/detail/?code=USDJPY=FX'
 elsif name == "ユーロ"
   url = 'https://info.finance.yahoo.co.jp/fx/detail/?code=EURJPY=FX'
-elsif name == "オーストラリアドル"
+elsif name == "ポンド"
   url = 'https://info.finance.yahoo.co.jp/fx/detail/?code=GBPJPY=FX'
 end
 doc = Nokogiri::HTML(open(url))
